@@ -34,7 +34,8 @@ element.forEach(function(element) {
             submitBtn.classList.add('btn-success');
         }
         else {
-            alert("Please verify you are human!")
+            alert("Please verify you are human!");
+            location.reload(true);
         }
     })
 })
